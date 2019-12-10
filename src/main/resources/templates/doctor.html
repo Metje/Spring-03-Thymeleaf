@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
+<head>
+    <title>Doctor Secret Room</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header th:insert="header.html :: header"> </header>
+<section>
+    <h1 th:text="|Welcome ${doctorname}!|">Welcome $doctorname</h1>
+    <h1 th:text="|Your number is ${doctornumber}!|">Your number is $doctornumber</h3>
+</section>
+<footer th:insert="footer.html :: footer"> </footer>
+</body>
+</html>
